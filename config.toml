@@ -14,7 +14,7 @@ theme = "blackburn"
 [params]
   # Shown in the home page
   subtitle = "A Hugo Theme"
-  brand = "Blackburn"
+  brand = "Chanjong"
   googleAnalytics = "Your Google Analytics tracking ID"
   disqus = "Your Disqus shortname"
   # CSS name for highlight.js
