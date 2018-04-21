@@ -1,6 +1,6 @@
 baseurl = "https://cjyu9211.github.io/" # Make sure to end baseurl with a '/'
-title = "Your site title"
-author = "Your name"
+title = "Management consultant"
+author = "Chanjong Yu"
 # Shown in the side menu
 copyright = "&copy; 2016. All rights reserved."
 canonifyurls = true
@@ -61,45 +61,14 @@ theme = "blackburn"
   # by entering your username or ID.
 
   # SNS microblogging
-  twitter = "*"
-  gnusocial = "*" # Specify href (e.g. https://quitter.se/yourusername)
-  facebook = "*"
-  googleplus = "*"
-  weibo = "*"
-  tumblr = "*"
+  facebook = "https://www.facebook.com/chanjongyu12"
+
 
   # SNS photo/video sharing
-  instagram = "*"
-  flickr = "*"
-  photo500px = "*"
-  pinterest = "*"
-  youtube = "*"
-  vimeo = "*"
-  vine = "*"
-  slideshare = "*"
 
   # SNS career oriented
   linkedin = "*"
-  xing = "*"
 
-  # SNS news
-  reddit = "*"
-  hackernews = "*"
 
   # Techie
   github = "yoshiharuyamashita"
-  gitlab = "*"
-  bitbucket = "*"
-  stackoverflow = "*"
-  serverfault = "*"
-
-  # Gaming
-  steam = "*"
-  mobygames = "*"
-
-  # Music
-  lastfm = "*"
-  discogs = "*"
-
-  # Other
-  keybase = "*"
