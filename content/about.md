@@ -9,8 +9,10 @@ Chanjong Yu is an incoming Associate Consultant at Bain & Company, Seoul. As an 
 
 He worked for about 2.5 years as an RF engineer at SOLiD Technology, inc, and as an undergraduate researcher at Mirae Asset A.I. Fintech Research Center and Complex Data Analytics Laboratory.
 
-## Education
-### Korea University 
+Education
+======
+Korea University 
+------
 Mar. 2012 - present
 
 * B.Eng. in Electrical Engineering (Expected in Aug. 2018)
@@ -24,6 +26,7 @@ Mar. 2012 - present
 2.  Yookyung Koh, **Chanjong Yu**, Junhee Seok, "__Forecasting Treasury Futures Price Movement with Recurrent Neural Networks__," in The 17th ICEIC, Hawaii, USA, Jan 2018.
 
 ## Work Experience 
+### 
 
 ## Research Experience
 
