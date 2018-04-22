@@ -14,7 +14,7 @@ He worked for about 2.5 years as an RF engineer at SOLiD Technology, inc, and as
 Mar. 2012 - present
 
 * B.Eng. in Electrical Engineering (Expected in Aug. 2018)
-* Overall GPA: 3.89/4.00; Major GPA: 3.92/4.00
+* Overall GPA: 3.89 / 4.00; Major GPA: 3.92 / 4.00
 * Honors and Awards: Semester High Honors; Seoklim Scholar; KU Alumni Association Scholar
 * Clubs and Activities: S&D, management consulting club (president), Likelion (member), Big data analysis club (member), One and Zero (member)
 
