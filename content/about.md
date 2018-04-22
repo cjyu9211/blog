@@ -12,13 +12,14 @@ He worked for about 2.5 years as an RF engineer at SOLiD Technology, inc, and as
 ## Education
 ### Korea University 
 Mar. 2012 - present
+
 * B.Eng. in Electrical Engineering (Expected in Aug. 2018)
 * Overall GPA: 3.89/4.00; Major GPA: 3.92/4.00
-* Honors and Awards: Semester High Honors; Seoklim Scholar; KU Alumni 	Association Scholar
+* Honors and Awards: Semester High Honors; Seoklim Scholar; KU Alumni Association Scholar
 * Clubs and Activities: S&D, management consulting club (president), Likelion (member), Big data analysis club (member), One and Zero (member)
 
 ## Publication
-1. **Chanjong Yu**, Heewoong Ahn, and Junhee Seok, "__Coordinate-RNN for Error Correction on Numerical Weather Prediction__," in The 17th International Conference on Electronics, Information, and Communication, Hawaii, USA, Jan 2018. [pdf](https://ieeexplore.ieee.org/document/8330699/)
+1. **Chanjong Yu**, Heewoong Ahn, and Junhee Seok, "__Coordinate-RNN for Error Correction on Numerical Weather Prediction__," in The 17th International Conference on Electronics, Information, and Communication, Hawaii, USA, Jan 2018. [[pdf](https://ieeexplore.ieee.org/document/8330699/)]
 
 2.  Yookyung Koh, **Chanjong Yu**, Junhee Seok, "__Forecasting Treasury Futures Price Movement with Recurrent Neural Networks__," in The 17th ICEIC, Hawaii, USA, Jan 2018.
 
