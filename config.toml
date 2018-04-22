@@ -15,7 +15,7 @@ paginate = 10
   # Shown in the home page
   subtitle = "Management consultant studying software engineering"
   brand = "cjyu9211"
-  googleAnalytics = "Your Google Analytics tracking ID"
+  googleAnalytics = "UA-117926873-1"
   disqus = "Your Disqus shortname"
   # CSS name for highlight.js
   highlightjs = "androidstudio"
