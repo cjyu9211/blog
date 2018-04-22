@@ -11,20 +11,30 @@ categories: [
 
 ---
 
-## 들어가며
+## Introduction
 
-### 이 블로그는?
+### Objectives
 
-본 블로그는 필자의 게으름을 극복하고자 개설한 블로그입니다. 향 후 n년 간 학부 때 전공한 공부와는 다른 분야에서 일을 하게 되었는데, 전공에 대한 공부를 놓치지 않기 위해 이 블로그를 개설하였습니다. 필자는 학부 때 전자공학을 전공했고, 반도체, 신호 처리, 집적회로 등 분야의 기초 과목을 공부하였습니다. 또한, 이와 병행하여 얕은 수준으로 deep learning 관련 independent study를 수행했습니다. 
+This blog is created to record and share the editor's personal projects and ideas.
 
-필자는 high technology를 이용하여 사업화 하는 것에 관심이 많고, 기존에 수행하던 작업들을 효율화하는 것에 특히 관심이 많습니다. 필자에 대한 자세한 정보는 [About](https://cjyu9211.github.io/about/) 참조 부탁드립니다.
+The editor majors in electrical engineering at his undergraduate and studied fundamental subjects in semiconductors, signal processing, computer architecture, and integrated circuits. During his undergraduate, he conducted an independent research on deep learning also. 
 
-본 블로그는 다음과 같은 내용을 위주로 구성됩니다.
+He is interested in commercializing high technology both in electrical engineering and computer science. For more information about the author, please refer to [About](https://cjyu9211.github.io/about/).
 
-* 개인 프로젝트 정리
-* 관심 있는 기사 정리 및 공유
-* 개인 생각 공유
+This blog is mainly composed of the following contents:
+
+* Report on personal researches or projects
+	```
+	From theoretical concepts on computer science to practical projects
+
+	```
+* Summary of article in interest
+	```
+	Any articles related to tech-industry or business
+
+	```
+* Personal thoughts on anything
 
 ### Contact
 
-글 내용에 오류가 있거나 feedback이 있으신 분께서는 [Contact](https://cjyu9211.github.io/contact/) 를 활용해주시거나 cj.yu9211@gmail.com 으로 연락해주시면 감사하겠습니다. 
+If you have any feedback, feel free to contact me through [Contact](https://cjyu9211.github.io/contact/) or my e-mail, cj.yu9211@gmail.com.
