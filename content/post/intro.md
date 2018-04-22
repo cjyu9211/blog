@@ -1,6 +1,13 @@
 ---
 title: "Intro"
 date: 2018-04-22T12:00:33+09:00
+tags: [
+    "Intro"
+]
+
+categories: [
+    "Intro"
+]
 
 ---
 
