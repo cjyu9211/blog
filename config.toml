@@ -1,8 +1,8 @@
 baseurl = "https://cjyu9211.github.io/"
 languageCode = "en-us"
-title = "Blackburn Theme Demo"
+title = "Chan's blog"
 theme = "blackburn"
-author = "Yoshiharu Yamashita"
+author = "Chanjong Yu"
 copyright = "&copy; 2016. All rights reserved."
 canonifyurls = true
 paginate = 10
@@ -13,8 +13,8 @@ paginate = 10
 
 [params]
   # Shown in the home page
-  subtitle = "A Hugo Theme"
-  brand = "Blackburn"
+  subtitle = "Management consultant studying software engineering"
+  brand = "cjyu9211"
   googleAnalytics = "Your Google Analytics tracking ID"
   disqus = "Your Disqus shortname"
   # CSS name for highlight.js
@@ -50,9 +50,6 @@ paginate = 10
 [social]
   # Link your social networking accouns to the side menu
   # by entering your username or ID.
-  twitter = "*"
-  facebook = "*"
-  instagram = "*"
-  github = "yoshiharuyamashita"
-  stackoverflow = "*"
-  linkedin = "*"
+  facebook = "chanjongyu12"
+  github = "cjyu9211"
+  linkedin = "chan-jong-yu"
