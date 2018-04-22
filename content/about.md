@@ -9,9 +9,8 @@ Chanjong Yu is an incoming Associate Consultant at Bain & Company, Seoul. As an 
 
 He worked for about 2.5 years as an RF engineer at SOLiD Technology, inc, and as an undergraduate researcher at Mirae Asset A.I. Fintech Research Center and Complex Data Analytics Laboratory.
 
-##Education
-
-###Korea University 
+## Education
+### Korea University 
 Mar. 2012 - present
 
 * B.Eng. in Electrical Engineering (Expected in Aug. 2018)
