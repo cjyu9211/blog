@@ -1,6 +1,6 @@
 ---
 title: "Lecture 1: NLP with DL"
-date: '`r format(Sys.time(), "%d %B, %Y")`'
+date: 2018-05-28T12:00:33+09:00
 tags: ["CS 224n", "NLP", "Data Science"]
 topics: ["NLP with Deep Learning"]
 ---
@@ -20,7 +20,7 @@ topics: ["NLP with Deep Learning"]
 
 일반적으로, NLP level은 다음과 같이 정의 된다. 
 
-![nlp_levels](./img_src/nlp_level.png)
+![nlp_levels](../img_src/nlp_level.png)
 
 - 자연어의 input은 크게 음성과 텍스트 두 가지로 나뉜다. 각각의 input은 음성학/음운론 분석, 그리고 OCR/토큰화 작업을 거친다.
 - 이후에는 두 input에 대해 같은 단계를 거친다. 첫 번째는 '**Morphological analysis**'이다. 이는 형태소 분석을 의미하는데 뜻을 지닌 가장 작은 말의 단위로 쪼개는 분석이다.
@@ -55,7 +55,7 @@ NLP가 어려운 가장 큰 이유는 자연어의 상황/세계관/문맥 등�
 
 NLP에서는 단어(words)의 형태론을 표현하는 방법 중 하나로 vector를 활용한다. 전통적으로는 형태소(morphemes)로 표현했는데, (e.g. prefix, stem, suffix...) DL에서는 모든 형태소를 vector로 표현하고 words를 각 형태소 vector를 합치는 식으로 표현한다. 
 
-![morpheme_vec](./img_src/morpheme_vec.png)
+![morpheme_vec](../img_src/morpheme_vec.png)
 
 
 
