@@ -51,6 +51,8 @@ NLP가 어려운 가장 큰 이유는 자연어의 상황/세계관/문맥 등�
 
 
 
+### NLP with Deep Learning
+
 #### Representations of NLP Levels: Morphology
 
 DL에서는 단어(words)의 형태론을 표현하는 방법 중 하나로 vector를 활용한다. 전통적으로는 형태소(morphemes)로 표현했는데, (e.g. prefix, stem, suffix...) 여기서는 각 형태소를 vector로 표현하고 words를 각 형태소 vector의 linear combination으로 표현한다. 
@@ -71,9 +73,7 @@ DL에서는 Semantics 또한 vector representation을 활용한다. 모든 단�
 
 
 
-{{% fluid_img class="pure-u-1-2" src="../img_src/trad_sem.png" alt="traditional semantic rep." %}}
-
-{{% fluid_img class="pure-u-1-2" src="../img_src/dl_sem.png" alt="dl semantic rep." %}}
+vector representation에 대한 자세한 내용은 다음 강의부터 자세하게 다룬다.
 
 
 
