@@ -13,15 +13,13 @@ topics: ["NLP with Deep Learning"]
 
 #### What is Natural Language Processing (NLP)?
 
-- NLP는 1) 전산과학, 2) 인공지능, 3) 언어학이 교차하는 부분의 학문이다. 
+- NLP는 1) 전산학, 2) 인공지능, 3) 언어학이 교차하는 부분의 학문이다. 
 - NLP는 컴퓨터로 하여금 자연어를 이해하고 처리하는 능력을 배양하는 기술이다. 최근 적용된 사례로는 Apple의 Siri, Google의 Google Assistant, Facebook의 Facebook M을 예로 들 수 있다. 
 
 #### NLP Levels
 
 일반적으로, NLP level은 다음과 같이 정의 된다. 
 {{% fluid_img class="pure-u-1-1" src="../img_src/nlp_level.png" alt="test" %}}
-
-![nlp_levels](../img_src/nlp_level.png){: width="100%" height="100%"}
 
 - 자연어의 input은 크게 음성과 텍스트 두 가지로 나뉜다. 각각의 input은 음성학/음운론 분석, 그리고 OCR/토큰화 작업을 거친다.
 - 이후에는 두 input에 대해 같은 단계를 거친다. 첫 번째는 '**Morphological analysis**'이다. 이는 형태소 분석을 의미하는데 뜻을 지닌 가장 작은 말의 단위로 쪼개는 분석이다.
@@ -52,29 +50,26 @@ NLP가 어려운 가장 큰 이유는 자연어의 상황/세계관/문맥 등�
 
 
 
+
 #### Representations of NLP Levels: Morphology
 
-NLP에서는 단어(words)의 형태론을 표현하는 방법 중 하나로 vector를 활용한다. 전통적으로는 형태소(morphemes)로 표현했는데, (e.g. prefix, stem, suffix...) DL에서는 모든 형태소를 vector로 표현하고 words를 각 형태소 vector를 합치는 식으로 표현한다. 
+DL에서는 단어(words)의 형태론을 표현하는 방법 중 하나로 vector를 활용한다. 전통적으로는 형태소(morphemes)로 표현했는데, (e.g. prefix, stem, suffix...) 여기서는 각 형태소를 vector로 표현하고 words를 각 형태소 vector의 linear combination으로 표현한다. 
 
-![morpheme_vec](../img_src/morpheme_vec.png){: width="100%" height="100%"}
-
-
-
-vector representation은 이후 강의에서 보다 자세하게 다룰 예정이다.
+{{% fluid_img class="pure-u-1-1" src="../img_src/morpheme_vec.png" alt="morpheme_vec" %}}
 
 
 
+####Representations of NLP Levels: Semantics
 
+DL에서는 Semantics 또한 vector representation을 활용한다. 모든 단어, 구, 그리고 각 요소 간 논리적 관계 또한 vector로 표현된다. 전통적인 NLP 방식에서는 Lambda calculus 방식이 적용되었는데 이 함수는 human-designed 된 함수이다.  
 
-#### 
+```
+{{% fluid_img class="pure-u-1-2" src="../img_src/trad_sem.png" alt="traditional semantic rep." %}}
+```
 
-
-
-
-
-
-
-
+```
+{{% fluid_img class="pure-u-1-2" src="../img_src/dl_sem.png" alt="dl semantic rep." %}}
+```
 
 
 
