@@ -1,6 +1,6 @@
 ---
 title: "Lecture 1: NLP with DL"
-date: 2018-05-29T12:00:33+09:00
+date: '`r format(Sys.time(), "%d %B, %Y")`'
 tags: ["CS 224n", "NLP", "Data Science"]
 topics: ["NLP with Deep Learning"]
 ---
@@ -20,7 +20,7 @@ topics: ["NLP with Deep Learning"]
 
 일반적으로, NLP level은 다음과 같이 정의 된다. 
 
-![nlp_levels](/Users/macbookpro/Desktop/blog/draft/img_src/nlp_level.png)
+![nlp_levels](./img_src/nlp_level.png)
 
 - 자연어의 input은 크게 음성과 텍스트 두 가지로 나뉜다. 각각의 input은 음성학/음운론 분석, 그리고 OCR/토큰화 작업을 거친다.
 - 이후에는 두 input에 대해 같은 단계를 거친다. 첫 번째는 '**Morphological analysis**'이다. 이는 형태소 분석을 의미하는데 뜻을 지닌 가장 작은 말의 단위로 쪼개는 분석이다.
@@ -40,7 +40,32 @@ Deep Learning(DL)은 Machine Learning(ML)의 한 분야로 볼 수 있다. 다�
 
 
 
+#### Why NLP is difficult: Real newspaper headlines/tweets
 
+NLP가 어려운 가장 큰 이유는 자연어의 상황/세계관/문맥 등이 반영된 복잡성 때문이다. 이러한 특성 때문에 자연어는 프로그래밍 언어나 다른 formal language와는 다르게 의미가 한 개 이상일 수 있다. 다음과 같은 news headline을 예시로 들 수 있다.
+
+1. The Pope's **baby steps** on gays : 'gay에 대한 교황의 첫 걸음', baby와 steps의 품사를 명확히 하지 않으면 완전 다른 의미가 될 수 있다. 
+2. Boy **paralyzed** after tumor fights back to gain black belt : paralyzed가 main verb가 될수도 passive participle이 될 수도 있다.
+3. Enraged cow injures farmer with axe 
+4. Juvenile Court to Try Shooting Defendant 
+
+
+
+#### Representations of NLP Levels: Morphology
+
+NLP에서는 단어(words)의 형태론을 표현하는 방법 중 하나로 vector를 활용한다. 전통적으로는 형태소(morphemes)로 표현했는데, (e.g. prefix, stem, suffix...) DL에서는 모든 형태소를 vector로 표현하고 words를 각 형태소 vector를 합치는 식으로 표현한다. 
+
+![morpheme_vec](./img_src/morpheme_vec.png)
+
+
+
+vector representation은 이후 강의에서 보다 자세하게 다룰 예정이다.
+
+
+
+
+
+#### 
 
 
 
