@@ -63,7 +63,9 @@ DL에서는 단어(words)의 형태론을 표현하는 방법 중 하나로 vect
 
 DL에서는 Semantics 또한 vector representation을 활용한다. 모든 단어, 구, 그리고 각 요소 간 논리적 관계 또한 vector로 표현된다. 전통적인 NLP 방식에서는 Lambda calculus 방식이 적용되었는데 이 함수는 human-designed 된 함수이다.  
 
-{{% fluid_img class="pure-u-1-2" src="../img_src/trad_sem.png" alt="traditional semantic rep." %}{% fluid_img class="pure-u-1-2" src="../img_src/dl_sem.png" alt="dl semantic rep." %}}
+{{% fluid_img class="pure-u-1-2" src="../img_src/trad_sem.png" alt="traditional semantic rep." %}}
+
+{{% fluid_img class="pure-u-1-2" src="../img_src/dl_sem.png" alt="dl semantic rep." %}}
 
 
 
