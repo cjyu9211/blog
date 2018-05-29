@@ -19,7 +19,7 @@ topics: ["NLP with Deep Learning"]
 #### NLP Levels
 
 일반적으로, NLP level은 다음과 같이 정의 된다. 
-{{% fluid_img class="pure-u-1-2" src="../img_src/nlp_level.png" alt="test" %}}
+{{% fluid_img class="pure-u-1-1" src="../img_src/nlp_level.png" alt="test" %}}
 
 ![nlp_levels](../img_src/nlp_level.png){: width="100%" height="100%"}
 
