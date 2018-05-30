@@ -13,9 +13,12 @@ topics: ["잡생각"]
 
 ### Job Description
 
-```
-​```As a Product Manager on the Cloud Internet-of-Things (IoT) team, focused on Smart Building and Smart Living, you shape the experience of the future of smart homes in generals. You'll be thinking through the experience that a connected life can bring to users bringing together all the technology available to you now and in the coming years. (원문 중)
-```
+
+
+*As a Product Manager on the Cloud Internet-of-Things (IoT) team, focused on Smart Building and Smart Living, you shape the experience of the future of smart homes in generals. You'll be thinking through the experience that a connected life can bring to users bringing together all the technology available to you now and in the coming years.* (원문 중)
+
+
+
 
 JD를 보면 해당 공고는 Cloud IoT team에 소속되어, smart homes 관련 product를 기획하는 업무임을 알 수 있다. 최근 Mountain View에서 Consumer hardware engineer, 그리고 관련된 Product 팀 인력을 채용한 것으로 알고 있는데, 이러한 움직임과 유사한 흐름인 것 같다. 아무래도 Smart homes 관련 사업은 **지역성에 대한 이해**를 전제하기에 지역 오피스 별 팀이 존재해야할 것 같다는 생각도 든다.
 
@@ -44,17 +47,3 @@ JD를 보면 해당 공고는 Cloud IoT team에 소속되어, smart homes 관련
 
 
 PM 공고가 떴다는 것은 연구 진행 단계가 아닌 제품 개발로 즉시 이어질 것이기에 어떤 제품이 나오게 될 지 기대가 된다. 최근 tech 회사들의 재밌는 시도가 많아진 것 같아 좋다. 요 근래 연락이 닿았던 Bay area의 기업용 S/W 기업에서 근무하는 엔지니어 형이 있는데, 기존에 사람이 하던 분류 작업을 Deep Learning을 활용하여 자동화하고, S/W의 확장성을 높이는 일을 하고 있다. 이 뿐만 아니라 Demand forecasting 기능 추가, 고객 반응 실시간 시각화 등 다양한 시도를 하고 있다고 한다. 
-
-
-
-
-
-
-
-
-
-
-
-
-
-최근 Bay Area의 지인 중 
