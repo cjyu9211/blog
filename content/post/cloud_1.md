@@ -1,4 +1,4 @@
-\---
+---
 
 title: "Introduction: A View of Cloud Computing"
 
@@ -8,7 +8,7 @@ tags: ["CS349D", "Cloud Computing"]
 
 topics: ["Cloud Computing Technology"]
 
-\---
+---
 
 # Introduction: A View of Cloud Computing
 
