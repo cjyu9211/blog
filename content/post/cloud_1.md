@@ -10,6 +10,8 @@ topics: ["Cloud Computing Technology"]
 
 ---
 
+
+
 # Introduction: A View of Cloud Computing
 
 본 포스팅은 Stanford의 CS/EE 교수인 Christos Kozyrakis가 2018년 가을에 진행한 강의 CS349D: Cloud Computing Technology 강의노트 자료를 공부하고 요약한 내용이다. 강의 노트 원본 링크는 본문 최하단에 링크로 걸어두었다. 
@@ -44,9 +46,9 @@ SaaS는 클라우드 환경에서 운영되는 애플리케이션 서비스를 �
 
 대표적인 SaaS 서비스는 구글 앱스, 세일즈포스닷컴, MS오피스 365, 드롭박스 등을 들 수 있다. 
 
-![image-20190203213840898](/Users/macbookpro/Library/Application Support/typora-user-images/image-20190203213840898.png)
+{{% fluid_img class="pure-u-1-2" src="../img_src/cloud_level.png" alt="test" %}}
 
-위의 자료는 각 3가지 유형의 클라우드 서비스가 어떻게 다른 지 도식화한 자료이다. IaaS > PaaS > SaaS 순으로 서비스가 제공되는 영역이 좁아진다. 
+위의 사진은 각 3가지 유형의 클라우드 서비스가 어떻게 다른 지 도식화한 자료이다. IaaS > PaaS > SaaS 순으로 서비스가 제공되는 영역이 좁아진다. 
 
 최근 Amazon에는 Amazon Lambda라는 function as a service 유형이 출시되었다. 말 그대로 특정 함수를 클라우드 환경에서 대신 처리해주는 서비스이다. 이는 웹앱, IoT 앱, 스트리밍 서비스, 그리고 비디오 인코딩 등에 활용된다. 
 
@@ -71,21 +73,21 @@ SaaS는 클라우드 환경에서 운영되는 애플리케이션 서비스를 �
 
 ### 데이터센터 하드웨어
 
-데이터 센터에 들어가는 하드웨어 구성은 다음과 같다. ![image-20190203221259553](/Users/macbookpro/Library/Application Support/typora-user-images/image-20190203221259553.png)
+데이터 센터에 들어가는 하드웨어 구성은 다음과 같다. 
 
-
+{{% fluid_img class="pure-u-1-2" src="../img_src/hardware.png" alt="test" %}}
 
 기본적으로 한 서버에 여러대의 CPU, DRAM, 그리고 Disks가 들어가고 이러한 서버들을 40~80 개 정도 묶어 이더넷 스위치와 연결한 단위를 Rack이라 표현한다. 이러한 Rack을 다시 Switch로 수십 개 정도 묶은 것을 Cluster 단위라 표현한다. 
 
-![image-20190203221511759](/Users/macbookpro/Library/Application Support/typora-user-images/image-20190203221511759.png)
+{{% fluid_img class="pure-u-1-2" src="../img_src/hw_compute.png" alt="test" %}}
 
 서버의 경우 위의 사진과 같이 Multi-core CPU로 구성하는 경우가 기본이지만, 최근 머신러닝 등의 활용으로 병렬처리가 중요해졌기에 GPU, 혹은 사용처에 맞게 설계된 FPGA나 Custom accelerators를 활용하기도 한다.
 
-![image-20190203221642790](/Users/macbookpro/Library/Application Support/typora-user-images/image-20190203221642790.png)
+{{% fluid_img class="pure-u-1-2" src="../img_src/hw_storage.png" alt="test" %}}
 
 Storage의 경우도 기본적으로는 disk 저장장치와 SSD & Non-volatile memory를 활용하는 것이 기본이었지만, 최근 새로운 방식의 archival storage도 활용한다. 
 
-![image-20190203221951192](/Users/macbookpro/Library/Application Support/typora-user-images/image-20190203221951192.png)
+{{% fluid_img class="pure-u-1-2" src="../img_src/hw_networking.png" alt="test" %}}
 
 네트워킹에 쓰이는 하드웨어는 기본적으로 NIC와 switch를 기본으로 활용한다. 대부분의 네트워크는 이더넷 스위치와 라우터를 트리 형태로 배치한 구조인데 모바일 기기가 급증하고, 클라우드 기반 가상화 서비스가 등장하면서 과거와 트래픽 패턴이 달라지면서 한계가 생기기 시작했다. 이 때문에 Software defined networking(SDN)이 발전했다. 쉽게 말해 개별 네트워크 장비에서 제어 기능을 관리하는 것이 아니라 사용자가 소프트웨어로 네트워크를 제어하는 기술이다. 네트워크 제어 기능이 물리적 네트워크와 분리되어 있어 제어기능이 SDN 컨트롤러에 집중되어 있는 것이다. 
 
